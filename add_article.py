@@ -32,10 +32,10 @@ for x in range(0, len(categories)):
     if categories[x] == kind:
         with open('data/' + filenames[x], 'r') as file:
             current = file.readlines()
-        
+
         newcontents = current + [done]
 
         with open('data/' + filenames[x], 'w') as file:
-            file.write(''.join(newcontents))
+            file.write("\n" + ''.join(newcontents))
 
         print("Saved into " + 'data/' + filenames[x])
