@@ -3,7 +3,7 @@ date = input("Date of article: ")
 custom_title = input("Custom title of article: ")
 preview = input("The beginning text of the article: ")
 
-done = str(f"<a href=\"{url}\" title=\"{date} {preview}\">{custom_title}</a>")
+done = str(f"<p><a href=\"{url}\" title=\"{date} {preview}\">{custom_title}</a></p>")
 
 print(done)
 
