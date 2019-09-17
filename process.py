@@ -56,8 +56,7 @@ for element in domID:
 # Now it is time to copy the other files
 
 codefiles = [
-    "stylesheet.css",
-    "script.js"
+    "stylesheet.css"
 ]
 
 for document in codefiles:
